@@ -7,7 +7,7 @@ import './style.css'
 // import { loadPyodide } from 'https://pyodide-cdn2.iodide.io/pyodide/dev/full/pyodide.mjs'; // development
 import { loadPyodide } from "https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.mjs"; // this work
 // import { loadPyodide } from 'https://cdn.skypack.dev/pyodide@latest/full/pyodide.mjs';    // production
-// import { loadPyodide } from "pyodide/pyodide.ts"; //🐛 Bug: frozen
+// import { loadPyodide } from "pyodide/pyodide.ts"; //🐛 Bugs free
 // console.log(loadPyodide);
 
 const app = document.querySelector<HTMLDivElement>('#app')!
